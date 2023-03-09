@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: crimson;
+}
+
+.container-fluid {
+    background: crimson;
+}
+
+.navbar-brand {
+    margin-left: 10%;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    column-gap: 15%;
+    margin-left: 40%;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: black;
+}
+
+.profile-text {
+    font-weight: 400;
+
+}
+
+.dev {
+    color: crimson;
+    font-weight: 600;
+}
+
+.profile-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 0px 100px 0px 100px;
+    margin-top: 180px;
+}
+
+
+.profilepage {
+    text-align: center;
+    justify-content: center;
+    height: 97vh;
+    background-color: black;
+}
+
+.profileinfo {
+    text-align: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.btn {
+    border: 2px solid white;
+}
+
+.btn:hover {
+    border-radius: 2px solid crimson;
+    color: crimson;
+    background: white;
+    font-weight: 500;
+}
+
+.material-symbols-outlined {
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-text {
+    color: crimson;
+}
+
+.info_submit {
+    text-align: center;
+}
+
+.contactmepage {
+    padding: 20px;
+}
+
+
+.about_profile {
+    height: 300px;
+    width: 300px;
+    border-radius: 100px 0px 100px 0px;
+}
+
+.skillpage {
+    background-color: silver;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.aboutpage {
+    padding: 30px;
+    height: 100vh;
+
+}
+
+.service_img {
+    border-radius: 150px;
+}
+
+.service {
+    padding: 6%;
+}
+
+.services {
+    height: 95vh;
+    padding: 50px;
+    background-color: aqua;
+}
+
+.my_skills {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.edu_details {
+    display: flex;
+    flex-direction: row;
+}
+
+.education {
+    margin-top: -20px;
+}
+
+.contactmepage {
+    height: 90vh;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-nav {
+        column-gap: 15%;
+        margin-left: 1%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .profileinfo {
+        text-align: center;
+        justify-content: center;
+        margin-top: 120px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .about_info {
+        text-align: justify;
+        font-size: 13px;
+        text-align: center;
+        position: static;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .about_profile {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        text-align: center;
+        margin-top: -60px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .aboutinfo {
+        text-align: center;
+        margin-top: -120px;
+        text-align: justify;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .skillname {
+        display: flex;
+
+        width: 100%;
+        max-width: 50%;
+        padding: 0%;
+        width: 86px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .skillpage {
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .edu_details {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about_my {
+        text-align: justify;
+        justify-content: center;
+        margin: -12px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .education_details {
+        margin: -25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .my_skills {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .skill_name {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .skill_icon {
+        height: 30px;
+        width: 30px;
+        margin-left: 27px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .service_img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .service {
+        padding: 50px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .contactmepage {
+        height: 120vh;
+    }
+}
